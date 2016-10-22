@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="405fea1a-0e76-490c-8ead-096471db06c2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensiolabs/behat-page-object-extension" afterPath="$PROJECT_DIR$/vendor/sensiolabs/behat-page-object-extension" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="palto-deti.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -290,7 +288,7 @@
       <workItem from="1477072473518" duration="718000" />
       <workItem from="1477073247734" duration="7486000" />
       <workItem from="1477120905620" duration="17746000" />
-      <workItem from="1477160208037" duration="3083000" />
+      <workItem from="1477160208037" duration="3363000" />
     </task>
     <servers />
   </component>
@@ -327,7 +325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123544000" />
+    <option name="totallyTimeSpent" value="123824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="24" width="1629" height="1026" extended-state="6" />
