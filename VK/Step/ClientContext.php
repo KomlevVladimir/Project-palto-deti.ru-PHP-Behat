@@ -8,7 +8,6 @@ use VK\Helpers\TestDataHelper;
 
 class ClientContext extends BaseContext
 {
-
     /**
      * @var \VK\Data\Item
      */
@@ -121,7 +120,6 @@ class ClientContext extends BaseContext
     {
         $this->getFirstItemPage()->getLnkGoToCart()->click();
     }
-
 
     /**
      * @Then /^item should be added to cart$/
@@ -245,7 +243,6 @@ class ClientContext extends BaseContext
         $expectedTotalAmount = (substr(str_replace(",", "", ($this->item->price)), 0, -8)) * $itemQuantity;
         $actualTotalAmount = substr(str_replace(",", "", ($this->getCartPage()->getTxtTotalAmount()->getText())), 0, -8);
         \PHPUnit_Framework_Assert::assertEquals($expectedTotalAmount, $actualTotalAmount,  "Wrong total amount");
-
     }
 
     /**

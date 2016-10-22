@@ -167,6 +167,4 @@ class BaseContext extends PageObjectContext
     {
         return $this->getPage("ClothesForMenPage");
     }
-
-
 }
