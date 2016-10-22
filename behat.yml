@@ -1,0 +1,18 @@
+default:
+  suites:
+    client:
+        paths: [ %paths.base%/features ]
+        contexts: [ VK\Step\ClientContext, VK\Step\BaseContext ]
+        filters:
+        tags: ~@not-auto
+
+
+  extensions:
+    SensioLabs\Behat\PageObjectExtension:
+      namespaces:
+        page: [VK\Page\FrontPages, VK\Page\OtherPages, VK\Page\PageElements]
+        element: [VK\Elements]
+    Behat\MinkExtension:
+      base_url: http://palto-deti.ru
+      selenium2:
+       browser: firefox
