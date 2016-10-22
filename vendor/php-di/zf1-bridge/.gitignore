@@ -1,5 +1,0 @@
-composer.lock
-composer.phar
-vendor/*
-.idea/*
-PHP-DI-ZF1.iml
