@@ -1,25 +1,50 @@
-# CakePHP 3
+vendor/
+bin/
 
-/vendor/*
-/config/app.php
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Ignore IDEA specific files
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jslibraryMappings.xml
 
-/logs/*
-!/logs/empty
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
-# CakePHP 2
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## other idea ignores
+.idea/blade.xml
+.idea/scopes/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# Intellij
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and Intellij)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlitycs.build.properties
+fabric.properties
