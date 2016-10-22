@@ -2,18 +2,7 @@
 
 namespace VK\Step;
 
-use Behat\Behat\Context\Context;
-use Behat\MinkExtension\Context\MinkAwareContext;
-use Behat\MinkExtension\Context\MinkContext;
-use Behat\MinkExtension\Context\RawMinkContext;
-use Behat\Mink\Session;
-use SensioLabs\Behat\PageObjectExtension\Context\PageObjectAware;
 use SensioLabs\Behat\PageObjectExtension\Context\PageObjectContext;
-use SensioLabs\Behat\PageObjectExtension\PageObject\Page;
-use SensioLabs\Behat\PageObjectExtension\PageObject\Element;
-use Behat\Behat\Hook\Scope\AfterStepScope;
-use Zend\EventManager\Exception\RuntimeException;
-
 use VK\Page\FrontPages\MainPage;
 use VK\Page\PageElements\HeaderBlockElement;
 use VK\Page\FrontPages\FirstItemPage;

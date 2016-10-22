@@ -4,6 +4,7 @@ namespace VK\Page;
 use SensioLabs\Behat\PageObjectExtension\PageObject\Page;
 use Symfony\Component\Config\Definition\Exception\Exception;
 use VK\Elements\Checkbox;
+
 class BasePage extends Page
 {
     public function isElementPresent($name)
