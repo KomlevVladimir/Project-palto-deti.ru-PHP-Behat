@@ -23,7 +23,7 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @Given /^client on the main page$/
+     * @Given /^client is on the main page$/
      */
     public function clientOnTheMainPage()
     {
@@ -147,8 +147,8 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @Given /^item (.*) with (.*) added to cart$/
-     * @Given /^item with (.*) and (.*) added to cart$/
+     * @Given /^item (.*) with (.*) is added to cart$/
+     * @Given /^item with (.*) and (.*) is added to cart$/
      */
     public function itemAddedToCart($itemName, $size)
     {
@@ -159,7 +159,7 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @Given /^client on the cart page$/
+     * @Given /^client is on the cart page$/
      */
     public function clientOnTheCartPage()
     {
@@ -187,7 +187,7 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @Given /^item with (.*) and (.*) removed from cart$/
+     * @Given /^item with (.*) and (.*) is removed from cart$/
      */
     public function itemRemovedFromCart($itemName, $size)
     {
@@ -358,9 +358,9 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @When /^client follow to (.*)$/
+     * @When /^client follows to (.*)$/
      */
-    public function clientFollowToLink($link)
+    public function clientFollowsToLink($link)
     {
         switch ($link) {
             case "About shop":

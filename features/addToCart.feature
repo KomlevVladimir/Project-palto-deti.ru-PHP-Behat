@@ -4,7 +4,7 @@ Feature: Add item to cart
   I need to be able to add interesting items into a cart
 
   Scenario Outline: Add items to cart from different pages
-    Given client on the main page
+    Given client is on the main page
     When client chooses <itemName>
     And client  chooses <size> of this item
     And client adds <itemName> to cart

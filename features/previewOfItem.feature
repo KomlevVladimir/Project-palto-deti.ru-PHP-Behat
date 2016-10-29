@@ -4,7 +4,7 @@ Feature: Preview of item
   I want to be able to zoom the item
 
   Scenario Outline: View item
-    Given client on the main page
+    Given client is on the main page
     When client chooses <itemName>
     And client views item
     Then item should be zoomed

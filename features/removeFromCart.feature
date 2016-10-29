@@ -4,8 +4,8 @@ Feature: Remove item from cart
   I want to be able to remove items from cart
 
 Scenario Outline: Remove item from cart
-  Given item with <itemName> and <size> added to cart
-  And client on the cart page
+  Given item with <itemName> and <size> is added to cart
+  And client is on the cart page
   When client removes item from cart
   Then item should be removed from cart
 
@@ -14,7 +14,7 @@ Scenario Outline: Remove item from cart
   |Item from first page |110  |
 
 Scenario Outline: Return of removed item to cart
-  Given item with <itemName> and <size> removed from cart
+  Given item with <itemName> and <size> is removed from cart
   When client returns removed item to cart
   Then removed item should be returned to cart
 

@@ -4,8 +4,8 @@ Feature: Site navigation
   I want to be able to follow to links
 
   Scenario Outline: Site navigation
-    Given client on the main page
-    When client follow to <link>
+    Given client is on the main page
+    When client follows to <link>
     Then page <link> should be opened
 
     Examples:

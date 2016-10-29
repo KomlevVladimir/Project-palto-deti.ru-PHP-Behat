@@ -4,7 +4,7 @@ Feature: Search of item
   I want to be able to search for items containing certain words
 
   Background:
-    Given client on the main page
+    Given client is on the main page
 
   Scenario Outline: Searching for an existing item
     When client uses search for find <itemName>

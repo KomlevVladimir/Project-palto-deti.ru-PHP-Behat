@@ -4,8 +4,8 @@ Feature: Changing quantity of items and updating the cart
   I want to be able to change quantity of items and update the cart
 
   Scenario Outline: Update the cart
-    Given item <itemName> with <size> added to cart
-    And client on the cart page
+    Given item <itemName> with <size> is added to cart
+    And client is on the cart page
     When client changes quantity of item from one to <itemQuantity>
     And client updates the cart
     Then total amount should be increased <itemQuantity> times
