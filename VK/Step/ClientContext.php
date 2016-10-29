@@ -197,9 +197,9 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @When /^client return of canceled item to cart$/
+     * @When /^client returns removed item to cart$/
      */
-    public function clientReturnOfCanceledItemToCart()
+    public function clientReturnRemovedItemToCart()
     {
         $this->getCartPage()->getLnkReturnCanceledItem()->click();
     }

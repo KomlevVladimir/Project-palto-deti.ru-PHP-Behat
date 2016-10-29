@@ -6,7 +6,7 @@ Feature: Search of item
   Background:
     Given client on the main page
 
-  Scenario Outline: Searching for existing item
+  Scenario Outline: Searching for an existing item
     When client uses search for find <itemName>
     Then item should be found
 
@@ -14,7 +14,7 @@ Feature: Search of item
     |itemName |
     |куртка   |
 
-  Scenario Outline: Searching for unexisting item
+  Scenario Outline: Searching for a nonexistent item
     When client uses search for find <itemName>
     Then item should not be found
 
