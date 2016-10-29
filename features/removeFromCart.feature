@@ -16,7 +16,7 @@ Scenario Outline: Remove item from cart
 Scenario Outline: Return of removed item to cart
   Given item with <itemName> and <size> removed from cart
   When client returns removed item to cart
-  Then canceled item should be returned to cart
+  Then removed item should be returned to cart
 
   Examples:
   |itemName              |size |

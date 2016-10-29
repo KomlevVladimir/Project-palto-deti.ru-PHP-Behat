@@ -205,9 +205,9 @@ class ClientContext extends BaseContext
     }
 
     /**
-     * @Then /^canceled item should be returned to cart$/
+     * @Then /^removed item should be returned to cart$/
      */
-    public function canceledItemShouldBeReturnedToCart()
+    public function removedItemShouldBeReturnedToCart()
     {
         \PHPUnit_Framework_Assert::assertTrue(
             $this->getCartPage()->lnkItemNameIsPresent(),
